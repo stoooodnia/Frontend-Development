@@ -1,0 +1,12 @@
+#data {
+  border: 2px solid black;
+  width: 30%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#data p {
+  margin: 0;
+  border: 1px lightgray solid;
+}/*# sourceMappingURL=DataPrint.css.map */

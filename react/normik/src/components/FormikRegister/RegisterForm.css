@@ -1,0 +1,13 @@
+div {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 50%;
+  margin-right: 20px;
+}/*# sourceMappingURL=RegisterForm.css.map */
