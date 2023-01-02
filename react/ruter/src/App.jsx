@@ -13,6 +13,7 @@ import {
   De,
 } from "./components/PlaceHolders";
 import { Kalkulator, Add, Sub, Mul, Div } from "./components/Kalkulator";
+
 // function App() {
 //   return (
 //     <div className="App">
@@ -32,18 +33,21 @@ import { Kalkulator, Add, Sub, Mul, Div } from "./components/Kalkulator";
 //   );
 // }
 
+// function App() {
+//   return (
+//     <div>
+//       <Routes>
+//         <Route path="/" element={<Kalkulator />} />
+//         <Route path="add" element={<Add />} />
+//         <Route path="sub" element={<Sub />} />
+//         <Route path="mul" element={<Mul />} />
+//         <Route path="div" element={<Div />} />
+//       </Routes>
+//     </div>
+//   );
+// }
 function App() {
-  return (
-    <div>
-      <Routes>
-        <Route path="/" element={<Kalkulator />} />
-        <Route path="add" element={<Add />} />
-        <Route path="sub" element={<Sub />} />
-        <Route path="mul" element={<Mul />} />
-        <Route path="div" element={<Div />} />
-      </Routes>
-    </div>
-  );
+  return <div></div>;
 }
 
 export default App;
